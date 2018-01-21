@@ -1,0 +1,4 @@
+<?
+	
+	echo "exercise14!!"
+?>

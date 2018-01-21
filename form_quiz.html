@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>search.png</title>
+</head>
+<body>
+
+<form style = "width = 300" name = "form1" method="post" action = "form_ok.php">
+<fieldset>
+<legend>회원정보</legend>
+아이디(*)<br>
+<input type = "text" name = "userid" size = "10" required> (최대 10자입력)<br>
+이름(*)<br>
+<input type = "text" name = "username"  size = "10" required><br>
+비밀번호(*)<br>
+<input type = "password" name = "userpwd"  size = "10" required><br>
+비밀번호 찾기 질문/답변<br>
+<select size = "3">
+	<option selected>다른 이메일 주소는?</option>
+	<option>나의 보물 1호는?</option>
+	<option>나의 출신 초등학교는?</option>
+</select>
+<br>
+<input type = "text" name = "answer" ><br>
+메일링 가입 <input type = "radio" name = "mailing" value = "yes" checked>예
+<input type = "radio" name = "mailing" value = "no">아니요
+</fieldset>
+
+
+<fieldset>
+<legend>부가정보</legend>
+핸드폰번호(*)<br>
+<input type = "text" name = "phonenumber" required><br><br>
+자기소개<br>
+<textarea style = "background-color:yellow" rows = "5" cols = "30">자신에 대해 간단히 소개하세요</textarea><br>
+<input type = "checkbox" name = "sms" value = "SMS 수신 허용">SMS 수신 허용<br><br>
+<input type = "reset" value = "새로입력">
+<input type = "submit" value = "회원가입">
+</fieldset>
+</form>
+
+</body>
+</html>

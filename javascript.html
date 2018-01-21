@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<script>
+	function a(){
+   	document.getElementById('div1').innerHTML = '여기에 시간이 보여요'
+    }
+    function b(){
+    document.getElementById('div1').innerHTML = Date()
+    }
+    function c(){
+    document.getElementById('div2').innerHTML = 'Hello World!'
+    }
+</script>
+</head>
+<body>
+
+<h3 onclick="b()"> 첫 번째 자바스크립트</h3>
+<button onmouseover="b()" onmouseout="a()">시간가져오기</button>
+<button onclick="c()">클릭하면 하고싶은 말 보이기</button>
+<div id="div1" style="background-color:pink">여기에 시간이 보여요</div>
+<div id="div2" style="background-color:yellow">여기에 하고싶은 말이 보여요</div>
+</body>
+</html>

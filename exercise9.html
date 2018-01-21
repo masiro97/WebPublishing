@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<style>
+
+	table#time_table{
+  		border: 1px solid black;
+        border-collapse: collapse;
+    }
+    #time_table th{
+		background-color:red;
+    	width: 150px;
+    }
+    #time_table tr{
+    	height: 20px;
+    }
+    
+    #time_table td{
+    	text-align:center;
+    }
+	
+	#time_table tr.even{
+		background-color:#FFA7A7;
+	}
+	#time_table tr.odd{
+		background-color:#FFD8D8;
+	}
+    #time_table td#dsp{
+    	background-color:lightgreen;
+    }
+	#time_table td#ai{
+    	background-color:lightblue;
+    }
+    #time_table td#control{
+    	background-color:lightyellow;
+    }
+    #time_table td#startup{
+    	background-color:#F2CB61;
+    }
+    #time_table td#web{
+    	background-color:#B2CCFF;
+    }
+    #time_table td#car{
+    	background-color:#EAEAEA;
+    }
+    #time_table td#de{
+    	background-color:#D1B2FF;
+    }
+
+</style>
+</head>
+<body>
+
+<table id="time_table" border="1">
+
+	<tr>
+    	<th></th>
+        <th>월</th>
+        <th>화</th>
+        <th>수</th>
+        <th>목</th>
+        <th>금</th>
+    </tr>
+    
+    <tr class = "even">
+    	<td rowspan="2">09:00 ~ 10:00</td>
+        <td rowspan="2"></td>
+        <td rowspan="2"></td>
+        <td rowspan="3" id="dsp">디지털신호처리</td>
+        <td rowspan="2"></td>
+        <td rowspan="3" id="dsp">디지털신호처리</td>
+    </tr>
+    
+      <tr>
+   	  </tr>
+    
+    <tr class = "odd">
+    	<td rowspan="2">10:00 ~ 11:00</td>
+        <td rowspan="2"></td>
+        <td rowspan="2"></td>
+        <td></td>
+    </tr>
+    
+     <tr class="odd">
+        <td></td>
+        <td rowspan="4" id="ai">인공지능</td>
+        <td></td>
+    </tr>
+    
+    <tr class="even"> 
+    	<td rowspan="2">11:00 ~ 12:00</td>
+        <td rowspan="2"></td>
+        <td rowspan="2"></td>
+        <td rowspan="2"></td>
+        <td rowspan="2"></td>
+    </tr>
+   
+     <tr>
+    </tr>
+    
+    <tr class="odd">
+    	<td rowspan="2">12:00 ~ 13:00</td>
+        <td rowspan="2"></td>
+        <td rowspan="2"></td>
+        <td rowspan="2"></td>
+        <td rowspan="2"></td>
+    </tr>
+    
+     <tr class="odd">
+        <td></td>
+    </tr>
+  
+    <tr class="even">
+    	<td rowspan="2">13:00 ~ 14:00</td>
+        <td rowspan="3" id="control" >자동제어1</td>
+        <td rowspan="3" id="control">자동제어1</td>
+        <td rowspan="2"></td>
+        <td rowspan="4" id="web">웹퍼블리싱</td>
+        <td rowspan="2"></td>
+    </tr>
+    
+     <tr>
+    </tr>
+    
+    <tr class="odd">
+    	<td rowspan="2">14:00 ~ 15:00</td>
+        <td rowspan="2"></td>
+        <td rowspan="2"></td>
+    </tr>
+    
+     <tr class="odd">
+        <td></td>
+        <td></td>
+    </tr>
+    
+    <tr class="even">
+    	<td rowspan="2">15:00 ~ 16:00</td>
+        <td rowspan="2"></td>
+        <td rowspan="4" id="startup">스타트업 초청강연</td>
+        <td rowspan="6" id="de">디지털논리회로실습</td>
+        <td rowspan="4" id="ai">인공지능</td>
+        <td rowspan="2"></td>
+    </tr>
+    
+     <tr>
+    </tr>
+    
+    <tr class="odd">
+    	<td rowspan="2">16:00 ~ 17:00</td>
+        <td rowspan="2"></td>
+        <td rowspan="2"></td>
+    </tr>
+    
+     <tr>
+    </tr>
+    
+    <tr class="even">
+    	<td rowspan="2">17:00 ~ 18:00</td>
+        <td rowspan="2"></td>
+        <td rowspan="2"></td>
+        <td rowspan="4" id="car">자동차기능안전</td>
+        <td rowspan="2"></td>
+    </tr>
+    
+     <tr>
+    </tr>
+    
+    <tr class="odd">
+    	<td rowspan="2">18:00 ~ 19:00</td>
+        <td rowspan="2"></td>
+        <td rowspan="2"></td>
+        <td rowspan="2"></td>
+        <td rowspan="2"></td>
+    </tr>
+    
+     <tr>
+    </tr>
+   
+</table>
+
+</body>
+</html>

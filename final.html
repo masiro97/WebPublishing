@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Final Exam</title>
+<style>
+
+@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+    body{
+    	margin : 30px;
+        background-color:skyblue;
+    }
+	h3{
+    	font-family: 'Nanum Brush Script', cursive;
+    }
+    h5{
+    	font-family: 'Noto Sans KR', sans-serif;
+        text-align: right;
+    }
+	img{
+    	height: 100px;
+        float:left;
+    
+    }
+    #img1{opacity:0.5;}
+    #img2{
+    	opacity:0.5;
+    	margin : 20px;
+    }
+    #img3{opacity:0.5;}
+    li.list{float:left;}
+    
+    ul{
+	list-style-type:none;
+    margin:0;
+    padding:0;
+    background-color:yellow;
+	}
+    
+	li.list a{
+    padding:16px;
+	text-decoration:none;
+    display:block;
+    background-color:red;
+    color:white;
+	}
+
+	li.list a:hover{
+	background-color: white;
+    color:red;
+	}
+    
+    .div1{
+    	padding-left:10px;
+    	height:40px;
+    	background-color: yellow;
+        border-left:10px solid red;
+        
+    }
+    #copy{
+    	height: 100px;
+        background-color:blue;
+        color:white;
+        text-align:center;
+    }
+    
+    #ulref{
+    	width : 150px;
+        height : 150px;
+    	background-color: lightpink;
+    	padding: 30px;
+    	position:relative;
+        bottom : 700px;
+        left : 500px;
+    }
+    li.ref a{
+    	
+    }
+    #content{
+    	width : 60%;
+    }
+    #dd{
+    	background-color:white;
+        padding :20px;
+    }
+</style>
+</style>
+<script>
+	function a(){
+    
+    	var obj = document.getElementById("img1");
+        obj.style.opacity = 1.0;
+    }
+    function b(){
+   	 var obj = document.getElementById("img1");
+        obj.style.opacity = 0.5;
+    }
+
+</script>
+</head>
+<body>
+<div id = "dd">
+<h3>MyWebBox</h3>
+<h5>THE WONDERFUL MY FIRST WEB PAGE</h5>
+<div id = "content">
+<ul>
+	<li class="list"><a href="#">Home</a></li>
+    <li class="list"><a href="#">HTML</a></li>
+    <li class="list"><a href="#">CSS</a></li>
+    <li class="list"><a href="#">JAVASCRIPT</a></li>
+</ul>
+<br><br>
+
+<h1>웹페이지를 작성하려면?</h1>
+<div class="div1">STEP1 : HTML로 문서의 내용과 레이아웃을 배치한다.</div><br>
+<img id = "img1" onmouseover="a()" onmouseout="b()" src = "http://cfile4.uf.tistory.com/image/213C6D4F54A2A6110F1312"/>
+HTML은 하이퍼텍스트 마크업 언어(HyperText Markup Language, 문화어: 초본문표식달기언어, 하이퍼본문표식달기언어)라는 의미의 웹 페이지를 위한 지배적인 마크업 언어다.<br><br><br><br>
+
+
+<div class="div1">STEP2 : CSS로 HTML의 요소를 디자인한다.</div><br>
+<img id = "img2" src = "https://cdn.worldvectorlogo.com/logos/css-3.svg">
+종속형 시트 또는 캐스케이딩 스타일 시트(Cascading Style Sheets, CSS)는 마크업 언어가 실제 표시되는 방법을 기술하는 언어로, HTML과 XHTML에 주로 쓰이며, XML에서도 사용할 수 있다. W3C의 표준이며, 레이아웃과 스타일을 정의할 때의 자유도가 높다.<br><br><br><br>
+
+
+<div class="div1">STEP3 : JavaScript로 생동감 있는 동적인 화면을 구현한다.</div><br>
+<img id = "img3" src ="https://www.javatpoint.com/images/javascript/javascript_logo.png">
+자바스크립트는 HTML과 CSS가 결합되고 웹페이지 상에서 올려진후, 브라우저의 자바스크립트 엔진에 의해 실행된다. 이는 페이지의 구조와 스타일등을 정해놓고, 자바스크립트가 실행된다는 것과 같은 의미이다.
+<br><br><br>
+</div>
+<ul id="ulref">
+	<img>REFERENCES
+    <li class="ref"><a href="https://www.w3schools.com">W3SCHOOLS.COM</a></li>
+    <li class="ref"><a href="http://fontawesome.io">FONT AWESOME</a></li>
+    <li class="ref"><a href="http://bootstrapk.com">BOOTSTRAP</a></li>
+    <li class="ref"><a href="https://pixabay.com/ko/">PIXABAY.COM</a></li>
+    <li class="ref"><a href="https://www.iconfinder.com/">ICONFINDER</a></li>
+</ul>
+
+<div id="copy">Copyright 2017 by Jang. All Rights Reserved.</div>
+</div>
+</body>
+</html>
